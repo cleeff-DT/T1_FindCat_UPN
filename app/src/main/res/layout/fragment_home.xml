@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".fragmentos.HomeFragment">
+
+    <!-- Contenedor principal con orientación vertical -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Título ALBERGUES -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#386966"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:text="Albergues" />
+        </LinearLayout>
+
+        <!-- Mapa de OSMDroid -->
+        <org.osmdroid.views.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" /> <!-- El mapa ocupará el espacio restante -->
+
+        <!-- Menú en la parte inferior -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+            <fragment
+                android:id="@+id/frgMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:name="com.example.gato.fragmentos.MenuFragment"
+                tools:layout="@layout/fragment_menu" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

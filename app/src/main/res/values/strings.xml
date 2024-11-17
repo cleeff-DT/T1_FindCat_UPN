@@ -1,0 +1,70 @@
+<resources>
+    <string name="logTxtUsuario">Escribir usuario</string>
+    <string name="logTxtContra">Escribir contraseña</string>
+    <string name="logBtnIngresar">Ingresar</string>
+    <string name="logBtnSalir">Salir</string>
+    <string name="logChxRecordar">Recodar Sesion</string>
+    <string name="logBtnRegistrate">¡Registrate!</string>
+    <string name="logLblOlvidoC">¿Olvido su contraseña?</string>
+    <string name="logLblDerechos">Derechos reservados</string>
+    <string name="app_name">Gato</string>
+    <string name="regLblTitulo">Registro</string>
+    <string name="regTxtDni">Dni</string>
+    <string name="regTxtNombre">Nombre(s)</string>
+    <string name="regTxtApellido">Apellidos</string>
+    <string name="regTxtCorreo">Correo</string>
+    <string name="regtxtCelular">Celular</string>
+    <string-array name="Distrito">
+        <item>-- Seleccione Distrito --</item>
+        <item>San Juan Lurigancho</item>
+        <item>Miraflores</item>
+        <item>San Isidro</item>
+        <item>Breña</item>
+        <item>Surco</item>
+        <item>Ate</item>
+        <item>Los Olivos</item>
+    </string-array>
+    <string name="regTxtContra">Contraseña</string>
+    <string name="regTxtContra2">Confirmar Contraseña</string>
+    <string name="regTxtTerminos">Terminos y Condiciones</string>
+    <string name="regBtnCrear">Crear</string>
+    <string name="regBtnRegresar">Regresar</string>
+    <string name="homeTitulo">Anuncios</string>
+
+    <string name="txtTitulo">Recuperar Contraseña</string>
+    <string name="txtSubtitulo">¿Con qué método desea recuperar su cuenta?</string>
+    <string name="btnCorreo">Correo Electrónico</string>
+    <string name="btnTelefono">Número Telefónico</string>
+
+    <string name="frgCfgLblEditar">Editar Perfil</string>
+    <string name="frgCfgLblConfiguracion">Configuración</string>
+    <string name="frgCfgLblTerminos">Términos y Condiciones</string>
+    <string name="frgCfgLblPoliticas">Póliticas de Privacidad</string>
+    <string name="frgCfgLblContacto">Contactenos</string>
+    <string name="frgCfgLblAyuda">Centro de Ayuda</string>
+    <string name="frgCfgLblCerrar">Cerrar Sesion</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="NvoTxtNombre">Ingrese su nombre</string>
+    <string name="NvoTxtRaza"> Ingrese su raza</string>
+    <string name="NvoTxtEdad">Ingres su edad</string>
+    <string name="NvoBtnCancelar">Cancelar</string>
+    <string name="NvoBtnAgregar">Agregar</string>
+    <string name="txtRtrTitulo">Reactivar Cuenta</string>
+
+    <string name="lblEditarPerfil">Editar Perfil</string>
+    <string name="lblEditNombres">Ingrese sus nombres</string>
+    <string name="lblEditApellidos">Ingrese sus apellidos</string>
+    <string name="lblEditDocumento">Ingrese su documento</string>
+    <string name="lblEditTelefono">Ingrese su teléfono</string>
+    <string name="lblEditCorreo">Ingrese su correo</string>
+    <string name="lblEditContrasena">Ingrese su contraseña</string>
+    <string name="lblEditConfirmarContrasena">Confirme su contraseña</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnEditar">Editar</string>
+
+    <string name="tvDescripcion">Somos una organización que ayuda con esta aplicación a localizar gatos perdidos o en situación de calle, permitiendo registrar tus propios gatos y publicar anuncios. También podrás consultar un mapa con refugios cercanos y hacer donaciones voluntarias para apoyar.</string>
+
+
+</resources>

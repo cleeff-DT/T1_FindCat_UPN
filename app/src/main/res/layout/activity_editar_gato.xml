@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividades.EditarGatoActivity"
+    android:padding="16dp"
+    android:background="@color/fondo">
+
+    <!-- Contenedor principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp">
+
+        <!-- Título Nuevo Gato -->
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EDITAR GATO"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Imagen para agregar foto del gato -->
+        <ImageView
+            android:id="@+id/imgGato"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pelusaa"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Campo Nombre -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="4dp" />
+
+            <EditText
+                android:id="@+id/lblNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese su nombre"
+                android:backgroundTint="#FFEDD9"
+                android:textColorHint="#999999"
+                android:padding="6dp" />
+        </LinearLayout>
+
+        <!-- Campo Raza -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raza"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="4dp" />
+
+            <EditText
+                android:id="@+id/lblRaza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese su raza"
+                android:backgroundTint="#FFEDD9"
+                android:textColorHint="#999999"
+                android:padding="6dp" />
+        </LinearLayout>
+
+        <!-- Campo Edad -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edad (meses o años)"
+                android:textSize="14sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="4dp" />
+
+            <EditText
+                android:id="@+id/lblEdad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese su edad"
+                android:backgroundTint="#FFEDD9"
+                android:textColorHint="#999999"
+                android:padding="6dp" />
+        </LinearLayout>
+
+        <!-- Spinner para Sexo -->
+        <TextView
+            android:id="@+id/txtSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sexo"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/cmbSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFEDD9"
+            android:padding="9dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Spinner para Tamaño -->
+        <TextView
+            android:id="@+id/txtTamano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tamaño"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/cmbTamano"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFEDD9"
+            android:padding="9dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Botones Cancelar y Agregar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancelar"
+                android:backgroundTint="#230F04"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:minWidth="80dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="16dp"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/btnAgregar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Editar"
+                android:backgroundTint="#230F04"
+                android:textColor="#FFFFFF"
+                android:padding="10dp"
+                android:minWidth="80dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+        <fragment
+            android:id="@+id/frgMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.gato.fragmentos.MenuFragment"
+            tools:layout="@layout/fragment_menu"/>
+    </LinearLayout>
+
+</FrameLayout>

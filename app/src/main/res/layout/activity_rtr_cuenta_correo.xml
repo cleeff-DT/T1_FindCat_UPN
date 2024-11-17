@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividades.RtrCuentaCorreoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#ECECEC">
+
+        <TextView
+            android:id="@+id/txtRtrTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reactivar cuenta"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:layout_marginTop="16dp" />
+
+        <ImageView
+            android:id="@+id/emoticon_cat"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/emoticon_cat" />
+
+        <TextView
+            android:id="@+id/txtCorreoElectronico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo Electronico:"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/txtRcpCorreo"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese su correo"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
+            android:textColorHint="#999999"
+            android:fontFamily="sans-serif"
+            android:elevation="2dp" />
+
+        <Button
+            android:id="@+id/btnValidarCorreo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Validar Correo"
+            android:backgroundTint="#F16713"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:elevation="4dp"
+            android:minHeight="48dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/txtCodeCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingrese el código de verificación:"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#000000"
+            android:layout_marginTop="18dp" />
+
+        <EditText
+            android:id="@+id/txtRcpCodigoCorreo"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese el código"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
+            android:textColorHint="#999999"
+            android:fontFamily="sans-serif"
+            android:inputType="number"
+            android:elevation="2dp" />
+
+        <Button
+            android:id="@+id/btnContinuarCorreo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Continuar"
+            android:backgroundTint="@color/naranja"
+            android:textColor="@color/marron"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:fontFamily="sans-serif"
+            android:elevation="4dp"
+            android:minHeight="48dp"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnCancelarCorreo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#230F04"
+            android:textColor="#FFFFFF"
+            android:elevation="4dp"
+            android:fontFamily="sans-serif"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:paddingVertical="54dp"
+            android:text="Cancelar"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
